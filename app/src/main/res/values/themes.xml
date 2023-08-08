@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CollaborativeBoard" parent="Theme.Material3.DayNight">
+
+    </style>
+
+    <style name="Theme.CollaborativeBoard" parent="Base.Theme.CollaborativeBoard" />
+
+    <style name="TaskStatusTabStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
