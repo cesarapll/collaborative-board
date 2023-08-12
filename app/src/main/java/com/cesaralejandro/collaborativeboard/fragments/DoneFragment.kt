@@ -5,10 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.RecyclerView
 import com.cesaralejandro.collaborativeboard.R
+import com.cesaralejandro.collaborativeboard.models.Task
 
 class DoneFragment : Fragment() {
 
+    private lateinit var doneTasks: MutableList<Task>
+
+    private lateinit var doneRecyclerView: RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
